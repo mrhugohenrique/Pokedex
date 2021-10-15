@@ -1,0 +1,18 @@
+.pokemon-card__image{
+    background: #F2F2F2;
+    border-radius: 5px;
+}
+
+.pokemon-card__number,
+.pokemon-card__name{
+    padding: 0 10px;
+}
+
+.pokemon-card__types{
+    display: flex;
+
+}
+.pokemon-card__type{
+    margin: 0 10px;
+    padding: 5px;
+}
