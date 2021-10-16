@@ -4,6 +4,7 @@
   width: 215px;
   display: flex;
   flex-direction: column;
+  
 
 }
 
@@ -29,6 +30,7 @@
   text-transform: none;
   font-size: 145%;
   margin: 0.5em 0 5px;
+  text-transform: capitalize;
 }
 
 
@@ -51,6 +53,8 @@
   text-transform: none;
   font-size: 11px;
   text-align: center;
+  text-transform: capitalize;
+
 }
 
 .pokemon-card__type--grass {
