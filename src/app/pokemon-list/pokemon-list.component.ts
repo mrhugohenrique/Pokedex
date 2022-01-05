@@ -8,8 +8,16 @@ import { PokemonService } from 'src/services/pokemon.service';
 })
 export class PokemonListComponent {
 
-  constructor(
-    public pokemonService: PokemonService,
-  ) {
+  totalResults:Array <any>;
+  paga:number= 1;
+
+  constructor(public pokemonService: PokemonService) {
+    this.totalResults = new Array<any>()
   }
+getUsers(){
+  this.pokemonService.getArray().subscribe(() =>{
+    console.log() 
+  })
+}
+
 }

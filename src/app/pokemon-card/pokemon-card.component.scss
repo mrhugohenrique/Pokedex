@@ -1,9 +1,12 @@
 .pokemon-card {
   font-family: 'Roboto', sans-serif;
-  margin: 0 5px 50px;
-  width: 215px;
+  margin: 5px 5px 10px;
+  width: 202px;
   display: flex;
   flex-direction: column;
+  box-sizing:content-box;
+  background: #fff;
+  border-radius: 5px;
   
 
 }
@@ -29,7 +32,7 @@
   color: #313131;
   text-transform: none;
   font-size: 145%;
-  margin: 0.5em 0 5px;
+  margin: 0.1em 0 2px;
   text-transform: capitalize;
 }
 
@@ -268,5 +271,5 @@
 }
 .pokemon-card__type{
     margin: 0 10px;
-    padding: 5px;
+   
 }
